@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="aptech.stormy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="crystal.Labs.stormy.SplashScreen"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Mumbai" />
+        <activity
+            android:name="aptech.ListActivit"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="crystal.Labs.stormy.Bengaluru" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Kolkata" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Jaipur"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Chennai" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Hyderabad"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Pune" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Ahmedabad"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Agra"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Ayodhya"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Surat"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Varanasi" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Chandigarh"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.newdelhi"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Vishakapatnam"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Indore" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Udaipur"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Shimla"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Lucknow"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Kochi"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Kanpur"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Patna"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Bhopal"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Nagpur"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Amritsar"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Gwalior"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Lonavla"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Matheran"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Mahabaleshwar" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Karjat"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Igatpuri" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Lavasa" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Noida" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Nashik"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Kodaikanal" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Jodhpur"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Gurgaon"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Vadodara"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Srinagar"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Rishikesh"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Dharamsala" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Lehladak"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Mussoorie"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Manali"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Haridwar"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Vapi"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Palanpur"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Bhuj"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Ooty"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Saputara"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Kullu"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Nainital"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Kasauli"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Rohtangpass"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Darjeeling"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Kufri"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Dalhousie"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Gulmarg"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Allahabad"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Coimbatore" android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Guwahati"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Panhala"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Panchgani"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Gangtok" android:alwaysRetainTaskState="true" />
+        <activity android:name="crystal.Labs.stormy.Shillong"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Rajkot"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Jaisalmer"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Bikaner"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Kashmir"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Chittorgarh"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Aurangabad"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Ambaji"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Mountabu"  android:alwaysRetainTaskState="true"/>
+        <activity android:name="crystal.Labs.stormy.Goa" android:alwaysRetainTaskState="true"></activity>
+    </application>
+
+</manifest>

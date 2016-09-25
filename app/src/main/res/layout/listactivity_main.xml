@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/weathery"
+    android:id="@+id/listlayout"
+    >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:padding="4dp">
+
+        <EditText
+            android:id="@+id/inputSearch"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:hint="Search your city"
+            android:drawableLeft="@drawable/searchwala"
+            android:drawablePadding="12dp"
+            android:layout_marginTop="0dp"
+            android:background="#fff"
+            android:textSize="20sp"
+            android:textColorHint="#000"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/calc_clear_txt_Prise"
+            android:layout_width="32dp"
+            android:layout_height="25dp"
+            android:onClick="clear"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/cross" />
+
+    </FrameLayout>
+
+
+
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view"
+
+
+        android:background="#30000000"
+
+        />
+
+</LinearLayout>

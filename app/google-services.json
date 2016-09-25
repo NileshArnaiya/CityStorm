@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "87645123600",
+    "firebase_url": "https://admob-app-id-1492038797.firebaseio.com",
+    "project_id": "admob-app-id-1492038797",
+    "storage_bucket": "admob-app-id-1492038797.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87645123600:android:da2e9909f5e11cea",
+        "android_client_info": {
+          "package_name": "crystal.Labs.stormy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87645123600-sdaf9g9eceggbhstdm5cr3ron9rn9vut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcPRiSARzZ15RyoHPOYSqiaa1n7gcNO5E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
